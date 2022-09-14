@@ -7,7 +7,6 @@
     <title>Laravel</title>
 </head>
 <body>
-    <h1>Laravel - Primi Passi</h1>
-    <a href="{{ url('hello') }}">Cliccami</a>
+    <p>Ciao, sono {{$name}}!</p>
 </body>
 </html>
